@@ -5,24 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
 
     <main>
         <section id="login">
-            
-            <div id="imagem">    <!--imagem-->
+            <div id="imagem"> <!--imagem-->
                 
-            </div>   <!-- fecha imagem-->
-            <div id="formulario"> <!--login-->
-                <h1>login</h1>
-                <p>Seja Bem-Vindo.Faça login para acessar sua conta </p>
-                <label for="isenha">senha</label>
-                <form method="post">
-                    <input type="password" name="isenha" id="isenha" required>
-                </form>
-            </div> <!--fecha login-->
-        </section>
+            </div> <!-- fecha imagem-->
+                <div id="formulario"> <!--login-->
+                    <h1>Login</h1>
+                    <p>Seja Bem-Vindo.Faça login para acessar sua conta </p>
+                
+                    <form method="post">
+
+                        <div class="campo">
+                            <span class="material-symbols-outlined">person_apron
+                            </span>
+                            <input type="email" name="usuario" id="iuser" placeholder="e-mail" required>
+                            <label for="iuser"></label>
+                        </div>
+
+                        <div class="campo">
+                            <span class="material-symbols-outlined">key_vertical
+                            </span>
+                            <input type="password" name="senha" id="isenha" placeholder="senha" required>
+                            <label for="isenha"></label>
+                        </div>
+                        <input type="submit" value="Enviar">
+                   
+                    </form>
+                </div> <!--fecha formulario-->
+        </section> <!--fecha login-->
     </main>
     
 </body>

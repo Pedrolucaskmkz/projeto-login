@@ -9,44 +9,53 @@
 :root {
     --cor0: #49a09d;
     --cor01: #5f2c83;
+
 }
 
 body,html{
+    width: 100vw;
     height: 100vh;
     background-color: #5f2c83;
-    width: 100vw;
+        
 }
 
 main{
-    position: relative;
-    height: 100vh;
     width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    margin-top: 9px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 #login{
-    background-color: white;
-    width: 259px;
-    height: 500px;
-
-    position:absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
-    overflow: hidden;
-    
-
     transform: translate(-50%,-50%);
+
+    width: 250px;
+    height: 500px;
+    background-color: white;
     border-radius: 15px;
+    overflow: hidden;
 }
 
-#login >#imagem{
+#imagem{
     background: url(../imagens/pexels-njeromin-12129379.jpg);
-    background-size: cover;
     height: 200px;
+    background-size: cover;
     display: block;
-    
 }
 
-#login > #formulario {
-    display: block;
+#formulario{
     padding: 10px;
+    display: block;
 }
