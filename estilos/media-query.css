@@ -1,19 +1,25 @@
-@charset "UTF-8";
-
-/* 768 992 */
+@charset "Utf-8";
+/* calular 250px- */
+/* tablet 768px-992px */
 
 /* Tablet */
+
+
 @media screen and (min-width:768px) and (max-width:992px) {
+
+    
 
     #login{
         width: 90vw;
+        height: 300px;
     }
 
     #imagem{
+        background-image: url(../imagens/pexels-packermann-1666012.jpg);
         float: left;
         width: 30%;
         height: 100%;
-        background-position: center center;
+        background-position: center center  ;
     }
 
     #formulario{
@@ -23,17 +29,22 @@
     
 }
 
-@media screen and (min-width:993px) {
+@media screen and (min-width:992px) {
+
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 
     #login{
         width: 90vw;
     }
-
     #imagem{
         float: right;
         width: 50%;
         height: 100%;
-        background-position: right center;
+        background: url(../imagens/pexels-packermann-1666012.jpg);
+        background-position: center center;
 
     }
 
@@ -41,5 +52,6 @@
         float: left;
         width: 47%;
     }
-    
+
+   
 }
